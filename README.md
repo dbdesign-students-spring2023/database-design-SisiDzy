@@ -14,7 +14,7 @@
 ## Problems
 
 1. Lack of data: There are serveral fields that are important for the table but not shown on it, such as `student_name` and `course_name`.
-2. Redundancy: Data in the table is duplicated across multiple fields, such as due_date (23.02.21), professor (Melvin), and assignment_topic (Data normalization).
+2. Redundancy: Data in the table is duplicated across multiple fields, such as `due_date` (23.02.21), `professor` (Melvin), and `assignment_topic`  (Data normalization).
 3. Anomalies: The table does not allow us to insert or delete certain attributes without doing the same change to other attributes, and to update certain attributes at once to keep data integrity.
 4. 2NF: Based on the data set, we can use `assignment_id` and `student_id` as a composite primary key. With this composite key, fields such as `due_date` and `assignment_topic` are only about a part of that entity.
 5. 3NF: Non-key fields of the table are facts about other non-key fields instead of key fields. For example, `professor_email` is the fact about `professor`.   
@@ -119,4 +119,4 @@
 1. Found important but missing fields so that the data set was complete
 2. Reorganized fields into different tables to eliminate data redundancy and anomalies
 3. Assigned the primary key to each table to make sure that they were unique
-4. Adjusted improper relationship between the key field and the non-key field in each table to ensure the normalization of the data set
+4. Adjusted the improper relationship between the key field and the non-key field in each table to ensure the normalization of the data set. For example, I separated assignment due date and reading into two tables.

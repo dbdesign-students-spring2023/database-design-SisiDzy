@@ -88,21 +88,13 @@
 
 9. Grade:
 
-| **assignment_id** | student_id* | grade |
+| assignment_id* | student_id* | grade |
 | :------------ | :--------- | :------- |
 | 1             | 1          | 80    |
 | 1             | 2          | 25    |
 | 1             | 3          | 75    |
 
-10. Section and Assignment:
-
-| section_id* | assignment_id* |
-| :------------  | :------- |
-| 1              | 1 |
-| 1              | 2 |
-| 1              | 5 |
-
-11. Section and Student:
+10. Section and Student:
 
 | section_id* | student_id* |
 | :------------  | :------- |
@@ -110,7 +102,7 @@
 | 1              | 8 |
 | 1              | 15 |
 
-12. Section, Professor, and Classroom:
+11. Section, Professor, and Classroom:
 
 | section_id* | professor_id* | classroom_id* |
 | :------------ | :-------  | :-------  |

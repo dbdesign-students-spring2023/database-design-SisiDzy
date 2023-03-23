@@ -119,4 +119,4 @@
 1. Found important but missing fields so that the data set was complete
 2. Reorganized fields into different tables to eliminate data redundancy and anomalies
 3. Assigned the primary key to each table to make sure that they were unique
-4. Adjusted the improper relationship between the key field and the non-key field in each table to ensure the normalization of the data set. For example, I separated assignment due date and reading into two tables.
+4. Adjusted the improper relationship between the key field and the non-key field in each table to ensure the normalization of the data set.

@@ -88,7 +88,7 @@
 
 9. Grade:
 
-| assignment_id* | student_id* | grade |
+| **assignment_id** | student_id* | grade |
 | :------------ | :--------- | :------- |
 | 1             | 1          | 80    |
 | 1             | 2          | 25    |
